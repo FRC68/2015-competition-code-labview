@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="ChassisDisable.vi" Type="VI" URL="../ChassisDisable.vi"/>
 	<Item Name="ChassisDriveSet.vi" Type="VI" URL="../ChassisDriveSet.vi"/>
+	<Item Name="chassisdriveupdate.vi" Type="VI" URL="../chassisdriveupdate.vi"/>
 	<Item Name="ChassisOpen.vi" Type="VI" URL="../ChassisOpen.vi"/>
 	<Item Name="ChassisRefs.ctl" Type="VI" URL="../ChassisRefs.ctl"/>
 	<Item Name="ChassisRefSelector.vi" Type="VI" URL="../ChassisRefSelector.vi"/>
