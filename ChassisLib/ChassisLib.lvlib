@@ -8,6 +8,7 @@
 
 </Property>
 	<Item Name="ChassiDriveUpdate.vi" Type="VI" URL="../ChassiDriveUpdate.vi"/>
+	<Item Name="ChassisClose.vi" Type="VI" URL="../ChassisClose.vi"/>
 	<Item Name="ChassisDisable.vi" Type="VI" URL="../ChassisDisable.vi"/>
 	<Item Name="ChassisDriveSet.vi" Type="VI" URL="../ChassisDriveSet.vi"/>
 	<Item Name="ChassisOpen.vi" Type="VI" URL="../ChassisOpen.vi"/>
