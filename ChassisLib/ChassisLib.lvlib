@@ -8,8 +8,8 @@
 
 </Property>
 	<Item Name="ChassisClose.vi" Type="VI" URL="../ChassisClose.vi"/>
+	<Item Name="ChassisControlLoop.vi" Type="VI" URL="../ChassisControlLoop.vi"/>
 	<Item Name="ChassisDisable.vi" Type="VI" URL="../ChassisDisable.vi"/>
-	<Item Name="ChassisDriveSet.vi" Type="VI" URL="../ChassisDriveSet.vi"/>
 	<Item Name="ChassisOpen.vi" Type="VI" URL="../ChassisOpen.vi"/>
 	<Item Name="ChassisRefs.ctl" Type="VI" URL="../ChassisRefs.ctl"/>
 	<Item Name="ChassisRefSelector.vi" Type="VI" URL="../ChassisRefSelector.vi"/>
