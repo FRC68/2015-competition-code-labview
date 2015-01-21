@@ -4,9 +4,6 @@
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{00739AA3-9AEB-4DD7-9EDB-C224403E169E}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/DriveSpeedLeft</Property>
 	<Property Name="varPersistentID:{0B970DBF-C8C6-44A4-A326-9713EAC4FEF1}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/DriveSpeedRight</Property>
-	<Property Name="varPersistentID:{52E0A9D2-E13D-4FE7-940C-F41398A9AC87}" Type="Ref">/Target/ChassisLib/PowerSlide.lvlib/PowerSlideRatio</Property>
-	<Property Name="varPersistentID:{AAC2F73A-F5AB-41FE-8D37-F828AEC3A6C8}" Type="Ref">/Target/ChassisLib/PowerSlide.lvlib/PowerSlideReduction</Property>
-	<Property Name="varPersistentID:{EE8D5008-7E77-46D3-A9D3-0C2B349A2544}" Type="Ref">/Target/ChassisLib/PowerSlide.lvlib/PowerSlideTurnThreshold</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
