@@ -8,6 +8,7 @@
 
 </Property>
 	<Item Name="Intakeclose.vi" Type="VI" URL="../Intakeclose.vi"/>
+	<Item Name="IntakeDisable.vi" Type="VI" URL="../IntakeDisable.vi"/>
 	<Item Name="IntakeOpen.vi" Type="VI" URL="../IntakeOpen.vi"/>
 	<Item Name="IntakeRefs.ctl" Type="VI" URL="../IntakeRefs.ctl"/>
 	<Item Name="IntakeRefSelector.vi" Type="VI" URL="../IntakeRefSelector.vi"/>
