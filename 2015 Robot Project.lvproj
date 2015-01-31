@@ -138,6 +138,9 @@ AddOutputFilter chunkFilter
 		<Item Name="IntakeLib" Type="Folder" URL="../IntakeLib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="LiftLib" Type="Folder" URL="../LiftLib">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
