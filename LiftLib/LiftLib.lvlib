@@ -20,6 +20,7 @@
 	<Item Name="LiftOpen.vi" Type="VI" URL="../LiftOpen.vi"/>
 	<Item Name="LiftRefs.ctl" Type="VI" URL="../LiftRefs.ctl"/>
 	<Item Name="LiftRefSelector.vi" Type="VI" URL="../LiftRefSelector.vi"/>
+	<Item Name="LiftSetLevel.vi" Type="VI" URL="../LiftSetLevel.vi"/>
 	<Item Name="LiftThreshold" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
