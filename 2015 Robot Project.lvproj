@@ -5,7 +5,9 @@
 	<Property Name="varPersistentID:{00739AA3-9AEB-4DD7-9EDB-C224403E169E}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/DriveSpeedLeft</Property>
 	<Property Name="varPersistentID:{0B970DBF-C8C6-44A4-A326-9713EAC4FEF1}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/DriveSpeedRight</Property>
 	<Property Name="varPersistentID:{0BA40089-1230-4D8D-B9D3-CC76D3B58978}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeLeftRollerSpeed</Property>
+	<Property Name="varPersistentID:{15CE3785-DC59-4DA4-8154-A91685E75C27}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/CurrentHeight</Property>
 	<Property Name="varPersistentID:{57CF3BE9-4924-4C03-B546-2BA2572F8DC0}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeRightRollerSpeed</Property>
+	<Property Name="varPersistentID:{798CBCFE-5AD7-4EF3-ACAE-219EA39B22B8}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/RequestedHeight</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
