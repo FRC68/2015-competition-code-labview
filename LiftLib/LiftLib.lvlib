@@ -17,6 +17,15 @@
 		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"1!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="LiftControlLoop.vi" Type="VI" URL="../LiftControlLoop.vi"/>
+	<Item Name="LiftInputArray" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"1!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="LiftOpen.vi" Type="VI" URL="../LiftOpen.vi"/>
 	<Item Name="LiftRefs.ctl" Type="VI" URL="../LiftRefs.ctl"/>
 	<Item Name="LiftRefSelector.vi" Type="VI" URL="../LiftRefSelector.vi"/>
@@ -33,10 +42,17 @@
 	<Item Name="RequestedHeight" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/2015 Robot Project.lvproj/Target/LiftLib/LiftLib.lvlib/</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:ArrayLength" Type="Str">5</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:DatapointsInWaveform" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"1!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>

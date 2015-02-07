@@ -9,6 +9,7 @@
 	<Property Name="varPersistentID:{15CE3785-DC59-4DA4-8154-A91685E75C27}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/CurrentHeight</Property>
 	<Property Name="varPersistentID:{57CF3BE9-4924-4C03-B546-2BA2572F8DC0}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeRightRollerSpeed</Property>
 	<Property Name="varPersistentID:{798CBCFE-5AD7-4EF3-ACAE-219EA39B22B8}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/RequestedHeight</Property>
+	<Property Name="varPersistentID:{8E73B641-A888-4C89-8C4E-6E0C4D68BC3C}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftInputArray</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
