@@ -10,6 +10,7 @@
 	<Item Name="PusherClose.vi" Type="VI" URL="../PusherClose.vi"/>
 	<Item Name="PusherControlLoop.vi" Type="VI" URL="../PusherControlLoop.vi"/>
 	<Item Name="PusherDisable.vi" Type="VI" URL="../PusherDisable.vi"/>
+	<Item Name="PusherGetPosition.vi" Type="VI" URL="../PusherGetPosition.vi"/>
 	<Item Name="PusherMovementSpeed" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
