@@ -22,4 +22,5 @@
 	<Item Name="GateOpen.vi" Type="VI" URL="../GateOpen.vi"/>
 	<Item Name="GateRefs.ctl" Type="VI" URL="../GateRefs.ctl"/>
 	<Item Name="GateRefSelector.vi" Type="VI" URL="../GateRefSelector.vi"/>
+	<Item Name="GateSetState.vi" Type="VI" URL="../GateSetState.vi"/>
 </Library>
