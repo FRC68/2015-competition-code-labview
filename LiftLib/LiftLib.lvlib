@@ -77,4 +77,5 @@
 	<Item Name="LiftSetLevel.vi" Type="VI" URL="../LiftSetLevel.vi"/>
 	<Item Name="LiftGetLevel.vi" Type="VI" URL="../LiftGetLevel.vi"/>
 	<Item Name="LiftManualSelectHeight.vi" Type="VI" URL="../LiftManualSelectHeight.vi"/>
+	<Item Name="LiftClose.vi" Type="VI" URL="../LiftClose.vi"/>
 </Library>
