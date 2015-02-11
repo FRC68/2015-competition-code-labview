@@ -9,6 +9,7 @@
 
 </Property>
 	<Item Name="LatchClose.vi" Type="VI" URL="../LatchClose.vi"/>
+	<Item Name="LatchControlLoop.vi" Type="VI" URL="../LatchControlLoop.vi"/>
 	<Item Name="LatchOpen.vi" Type="VI" URL="../LatchOpen.vi"/>
 	<Item Name="LatchRefs.ctl" Type="VI" URL="../LatchRefs.ctl"/>
 	<Item Name="LatchRefSelector.vi" Type="VI" URL="../LatchRefSelector.vi"/>
