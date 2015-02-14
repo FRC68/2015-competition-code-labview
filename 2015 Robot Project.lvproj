@@ -8,6 +8,7 @@
 	<Property Name="varPersistentID:{0BA40089-1230-4D8D-B9D3-CC76D3B58978}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeLeftRollerSpeed</Property>
 	<Property Name="varPersistentID:{13E400E9-CC28-4E25-A59A-EE1B5C4948B1}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeCylState</Property>
 	<Property Name="varPersistentID:{57CF3BE9-4924-4C03-B546-2BA2572F8DC0}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeRightRollerSpeed</Property>
+	<Property Name="varPersistentID:{62B80D50-E0D5-4FB4-B3FF-D8F1BCE9CF5E}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeDefaultSpeed</Property>
 	<Property Name="varPersistentID:{6530F727-919A-4CA1-B2EB-19928F3008E6}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftMotorSpeedUp</Property>
 	<Property Name="varPersistentID:{70E81CF1-4E66-4477-8E5B-DF37CBF02634}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftCurrentHeight</Property>
 	<Property Name="varPersistentID:{7CD81C0A-AC0E-4569-B61B-845FE40369F8}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherMovementSpeed</Property>
