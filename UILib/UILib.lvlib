@@ -25,10 +25,10 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"1!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="MainControlLogic.vi" Type="VI" URL="../MainControlLogic.vi"/>
 	<Item Name="UILoadDefaults.vi" Type="VI" URL="../UILoadDefaults.vi"/>
 	<Item Name="UIOpen.vi" Type="VI" URL="../UIOpen.vi"/>
 	<Item Name="UIProccessDriveJoysticks.vi" Type="VI" URL="../UIProccessDriveJoysticks.vi"/>
+	<Item Name="UIProcessManipJoysticks.vi" Type="VI" URL="../UIProcessManipJoysticks.vi"/>
 	<Item Name="UIRefs.ctl" Type="VI" URL="../UIRefs.ctl"/>
 	<Item Name="UIRefsSelector.vi" Type="VI" URL="../UIRefsSelector.vi"/>
 </Library>
