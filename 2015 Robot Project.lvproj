@@ -22,6 +22,7 @@
 	<Property Name="varPersistentID:{B422D028-43EE-46F6-A2D1-EF1AD39E074C}" Type="Ref">/Target/GateLib/GateLib.lvlib/GateCylState</Property>
 	<Property Name="varPersistentID:{BCAA85B9-F520-4AAA-ABFB-F48AB1732E6B}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchContainerState</Property>
 	<Property Name="varPersistentID:{BE6B137B-2906-4E8B-BBCF-B3C7A51ADB47}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLatchState</Property>
+	<Property Name="varPersistentID:{C12CAF77-ABD1-488A-8B23-8BDD534264DB}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftLockSpeed</Property>
 	<Property Name="varPersistentID:{E7FFDABB-002D-48BA-B711-21693311C665}" Type="Ref">/Target/UILib/UILib.lvlib/LatchClearHeight</Property>
 	<Property Name="varPersistentID:{FA63E72E-7349-40F5-90F0-638E95EE88D4}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherThreshold</Property>
 	<Item Name="My Computer" Type="My Computer">
