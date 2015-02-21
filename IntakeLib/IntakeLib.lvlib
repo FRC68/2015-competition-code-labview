@@ -57,4 +57,5 @@
 	</Item>
 	<Item Name="IntakeDefaultRevese.vi" Type="VI" URL="../IntakeDefaultRevese.vi"/>
 	<Item Name="IntakeDefaultForward.vi" Type="VI" URL="../IntakeDefaultForward.vi"/>
+	<Item Name="IntakeStop.vi" Type="VI" URL="../IntakeStop.vi"/>
 </Library>

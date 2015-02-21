@@ -9,12 +9,14 @@
 	<Property Name="varPersistentID:{13E400E9-CC28-4E25-A59A-EE1B5C4948B1}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeCylState</Property>
 	<Property Name="varPersistentID:{57CF3BE9-4924-4C03-B546-2BA2572F8DC0}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeRightRollerSpeed</Property>
 	<Property Name="varPersistentID:{62B80D50-E0D5-4FB4-B3FF-D8F1BCE9CF5E}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeDefaultSpeed</Property>
+	<Property Name="varPersistentID:{640CF2B2-9342-4C40-949C-09EF697ECAAD}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftInnerSpeedUp</Property>
 	<Property Name="varPersistentID:{6530F727-919A-4CA1-B2EB-19928F3008E6}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftMotorSpeedUp</Property>
 	<Property Name="varPersistentID:{70E81CF1-4E66-4477-8E5B-DF37CBF02634}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftCurrentHeight</Property>
 	<Property Name="varPersistentID:{7CD81C0A-AC0E-4569-B61B-845FE40369F8}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherMovementSpeed</Property>
 	<Property Name="varPersistentID:{8A021618-D32B-4B10-B75E-4D83317D0992}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPositions</Property>
 	<Property Name="varPersistentID:{8B3828D3-F43C-49C1-A22B-3364EA6C726D}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftMotorSpeedDown</Property>
 	<Property Name="varPersistentID:{8E73B641-A888-4C89-8C4E-6E0C4D68BC3C}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftInputArray</Property>
+	<Property Name="varPersistentID:{918D90F2-6F54-4AA3-AC91-9D5A67425BAA}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftInnerThreshold</Property>
 	<Property Name="varPersistentID:{943DD7D6-89C0-40A1-BBE6-5B25959E95DB}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPositionActual</Property>
 	<Property Name="varPersistentID:{978D1CFC-C122-4AD5-98BF-4B5788452BBF}" Type="Ref">/Target/UILib/UILib.lvlib/LiftLevel</Property>
 	<Property Name="varPersistentID:{A6FA17DD-4A05-4808-9045-D1C0E7BC223C}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPostionRequested</Property>
@@ -24,6 +26,7 @@
 	<Property Name="varPersistentID:{BE6B137B-2906-4E8B-BBCF-B3C7A51ADB47}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLatchState</Property>
 	<Property Name="varPersistentID:{C12CAF77-ABD1-488A-8B23-8BDD534264DB}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftLockSpeed</Property>
 	<Property Name="varPersistentID:{E7FFDABB-002D-48BA-B711-21693311C665}" Type="Ref">/Target/UILib/UILib.lvlib/LatchClearHeight</Property>
+	<Property Name="varPersistentID:{EDF14443-F96D-43BD-9823-E0ADF2BCE557}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftInnerSpeedDown</Property>
 	<Property Name="varPersistentID:{FA63E72E-7349-40F5-90F0-638E95EE88D4}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherThreshold</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -771,7 +774,6 @@ DirectoryIndex index.htm
 				<Item Name="WPI_EncoderReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderReset.vi"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="WPI_CounterStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterStart.vi"/>
 				<Item Name="WPI_CounterOpen UpDown Mode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterOpen UpDown Mode.vi"/>
 				<Item Name="WPI_CounterOpen External Direction Mode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterOpen External Direction Mode.vi"/>
