@@ -37,4 +37,23 @@
 		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"D8Q!!!"1!A!!!!!!"!%U!]=63&amp;7)!!!!"&amp;6&gt;136^4&lt;WRF&lt;G^J:&amp;:B&lt;(6F,G.U&lt;!!P1"9!"!.0:G9#4WY(2G^S&gt;W&amp;S:!&gt;3:8:F=H.F!!!,5G6M98EA6G&amp;M&gt;75!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="LatchSetSpeed.vi" Type="VI" URL="../LatchSetSpeed.vi"/>
+	<Item Name="LatchLinkState" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"1!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="LatchSetLinkState.vi" Type="VI" URL="../LatchSetLinkState.vi"/>
+	<Item Name="LatchLinkState_2" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"1!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>

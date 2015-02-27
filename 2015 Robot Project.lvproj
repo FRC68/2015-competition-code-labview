@@ -7,6 +7,8 @@
 	<Property Name="varPersistentID:{0B970DBF-C8C6-44A4-A326-9713EAC4FEF1}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/DriveSpeedRight</Property>
 	<Property Name="varPersistentID:{0BA40089-1230-4D8D-B9D3-CC76D3B58978}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeLeftRollerSpeed</Property>
 	<Property Name="varPersistentID:{13E400E9-CC28-4E25-A59A-EE1B5C4948B1}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeCylState</Property>
+	<Property Name="varPersistentID:{1A859F88-70C1-4D93-8FCF-93BE4D5C10F7}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLinkState</Property>
+	<Property Name="varPersistentID:{1C0B15D1-8AD7-46D0-8A79-B1EA666585D3}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLinkState_2</Property>
 	<Property Name="varPersistentID:{57CF3BE9-4924-4C03-B546-2BA2572F8DC0}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeRightRollerSpeed</Property>
 	<Property Name="varPersistentID:{62B80D50-E0D5-4FB4-B3FF-D8F1BCE9CF5E}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeDefaultSpeed</Property>
 	<Property Name="varPersistentID:{640CF2B2-9342-4C40-949C-09EF697ECAAD}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftInnerSpeedUp</Property>
