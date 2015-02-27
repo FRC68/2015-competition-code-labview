@@ -19,6 +19,8 @@
 	<Property Name="varPersistentID:{918D90F2-6F54-4AA3-AC91-9D5A67425BAA}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftInnerThreshold</Property>
 	<Property Name="varPersistentID:{943DD7D6-89C0-40A1-BBE6-5B25959E95DB}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPositionActual</Property>
 	<Property Name="varPersistentID:{978D1CFC-C122-4AD5-98BF-4B5788452BBF}" Type="Ref">/Target/UILib/UILib.lvlib/LiftLevel</Property>
+	<Property Name="varPersistentID:{9A22BAA2-EE99-4F27-8B46-22AF1290DC59}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftEnablePID</Property>
+	<Property Name="varPersistentID:{9E7C7707-9A0C-403C-94AC-DF877572AA6E}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftPIDGains</Property>
 	<Property Name="varPersistentID:{A6FA17DD-4A05-4808-9045-D1C0E7BC223C}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPostionRequested</Property>
 	<Property Name="varPersistentID:{AD1A1C27-F383-478E-AB4E-3CDA307F1301}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftRequestedHeight</Property>
 	<Property Name="varPersistentID:{B422D028-43EE-46F6-A2D1-EF1AD39E074C}" Type="Ref">/Target/GateLib/GateLib.lvlib/GateCylState</Property>
@@ -790,6 +792,9 @@ DirectoryIndex index.htm
 				<Item Name="WPI_SwitchRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Switch/WPI_SwitchRefNum Registry Set.vi"/>
 				<Item Name="WPI_SwitchRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Switch/WPI_SwitchRefNum Registry Get.vi"/>
 				<Item Name="WPI_SwitchGetLimitValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Switch/WPI_SwitchGetLimitValue.vi"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
