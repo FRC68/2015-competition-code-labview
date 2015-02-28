@@ -199,6 +199,7 @@ DirectoryIndex index.htm
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="PIDGains.ctl" Type="VI" URL="../PIDGains.ctl"/>
 		<Item Name="LiftInputArrayPath" Type="Document" URL="../../LiftInputArrayPath"/>
 		<Item Name="PusherPositionArrayPath" Type="Document" URL="../../PusherPositionArrayPath"/>
 		<Item Name="RobotPrefs.ini" Type="Document" URL="../../RobotPrefs.ini"/>
