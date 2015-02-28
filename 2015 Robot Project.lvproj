@@ -7,6 +7,7 @@
 	<Property Name="varPersistentID:{0B970DBF-C8C6-44A4-A326-9713EAC4FEF1}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/DriveSpeedRight</Property>
 	<Property Name="varPersistentID:{0BA40089-1230-4D8D-B9D3-CC76D3B58978}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeLeftRollerSpeed</Property>
 	<Property Name="varPersistentID:{13E400E9-CC28-4E25-A59A-EE1B5C4948B1}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeCylState</Property>
+	<Property Name="varPersistentID:{146EF14C-06E4-4D7E-AC04-0CCF6913BA7E}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisDistanceRight</Property>
 	<Property Name="varPersistentID:{1A859F88-70C1-4D93-8FCF-93BE4D5C10F7}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLinkState</Property>
 	<Property Name="varPersistentID:{1C0B15D1-8AD7-46D0-8A79-B1EA666585D3}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLinkState_2</Property>
 	<Property Name="varPersistentID:{57CF3BE9-4924-4C03-B546-2BA2572F8DC0}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeRightRollerSpeed</Property>
@@ -15,6 +16,7 @@
 	<Property Name="varPersistentID:{6530F727-919A-4CA1-B2EB-19928F3008E6}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftMotorSpeedUp</Property>
 	<Property Name="varPersistentID:{70E81CF1-4E66-4477-8E5B-DF37CBF02634}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftCurrentHeight</Property>
 	<Property Name="varPersistentID:{7CD81C0A-AC0E-4569-B61B-845FE40369F8}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherMovementSpeed</Property>
+	<Property Name="varPersistentID:{7F20F567-A60A-4F5D-9875-BC8C7040E2D4}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisDistanceLeft</Property>
 	<Property Name="varPersistentID:{8A021618-D32B-4B10-B75E-4D83317D0992}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPositions</Property>
 	<Property Name="varPersistentID:{8B3828D3-F43C-49C1-A22B-3364EA6C726D}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftMotorSpeedDown</Property>
 	<Property Name="varPersistentID:{8E73B641-A888-4C89-8C4E-6E0C4D68BC3C}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftInputArray</Property>
