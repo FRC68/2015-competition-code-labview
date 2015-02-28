@@ -28,10 +28,12 @@
 	<Property Name="varPersistentID:{A6FA17DD-4A05-4808-9045-D1C0E7BC223C}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPostionRequested</Property>
 	<Property Name="varPersistentID:{AD1A1C27-F383-478E-AB4E-3CDA307F1301}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftRequestedHeight</Property>
 	<Property Name="varPersistentID:{B422D028-43EE-46F6-A2D1-EF1AD39E074C}" Type="Ref">/Target/GateLib/GateLib.lvlib/GateCylState</Property>
+	<Property Name="varPersistentID:{B9B5CC2C-7043-4F52-984B-D38C4ACB3A3C}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisPIDGains</Property>
 	<Property Name="varPersistentID:{BCAA85B9-F520-4AAA-ABFB-F48AB1732E6B}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchContainerState</Property>
 	<Property Name="varPersistentID:{BE6B137B-2906-4E8B-BBCF-B3C7A51ADB47}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLatchState</Property>
 	<Property Name="varPersistentID:{C12CAF77-ABD1-488A-8B23-8BDD534264DB}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftLockSpeed</Property>
 	<Property Name="varPersistentID:{E7FFDABB-002D-48BA-B711-21693311C665}" Type="Ref">/Target/UILib/UILib.lvlib/LatchClearHeight</Property>
+	<Property Name="varPersistentID:{E9B72195-82A7-4427-A418-E52E6D64C6CB}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisDistanceThreshold</Property>
 	<Property Name="varPersistentID:{EDF14443-F96D-43BD-9823-E0ADF2BCE557}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftInnerSpeedDown</Property>
 	<Property Name="varPersistentID:{FA63E72E-7349-40F5-90F0-638E95EE88D4}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherThreshold</Property>
 	<Item Name="My Computer" Type="My Computer">
