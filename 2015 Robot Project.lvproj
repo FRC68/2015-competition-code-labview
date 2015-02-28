@@ -8,6 +8,7 @@
 	<Property Name="varPersistentID:{0BA40089-1230-4D8D-B9D3-CC76D3B58978}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeLeftRollerSpeed</Property>
 	<Property Name="varPersistentID:{13E400E9-CC28-4E25-A59A-EE1B5C4948B1}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeCylState</Property>
 	<Property Name="varPersistentID:{146EF14C-06E4-4D7E-AC04-0CCF6913BA7E}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisDistanceRight</Property>
+	<Property Name="varPersistentID:{1816C13F-ADDA-452C-83D5-5BC6B8BFBFD1}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftPIDGains</Property>
 	<Property Name="varPersistentID:{1A859F88-70C1-4D93-8FCF-93BE4D5C10F7}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLinkState</Property>
 	<Property Name="varPersistentID:{1C0B15D1-8AD7-46D0-8A79-B1EA666585D3}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLinkState_2</Property>
 	<Property Name="varPersistentID:{57CF3BE9-4924-4C03-B546-2BA2572F8DC0}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeRightRollerSpeed</Property>
@@ -23,6 +24,7 @@
 	<Property Name="varPersistentID:{918D90F2-6F54-4AA3-AC91-9D5A67425BAA}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftInnerThreshold</Property>
 	<Property Name="varPersistentID:{943DD7D6-89C0-40A1-BBE6-5B25959E95DB}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPositionActual</Property>
 	<Property Name="varPersistentID:{978D1CFC-C122-4AD5-98BF-4B5788452BBF}" Type="Ref">/Target/UILib/UILib.lvlib/LiftLevel</Property>
+	<Property Name="varPersistentID:{9C73AA9E-3296-4A0F-8423-EDE58B6ADB05}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftEnablePID</Property>
 	<Property Name="varPersistentID:{A6FA17DD-4A05-4808-9045-D1C0E7BC223C}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPostionRequested</Property>
 	<Property Name="varPersistentID:{AD1A1C27-F383-478E-AB4E-3CDA307F1301}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftRequestedHeight</Property>
 	<Property Name="varPersistentID:{B422D028-43EE-46F6-A2D1-EF1AD39E074C}" Type="Ref">/Target/GateLib/GateLib.lvlib/GateCylState</Property>
@@ -836,7 +838,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
