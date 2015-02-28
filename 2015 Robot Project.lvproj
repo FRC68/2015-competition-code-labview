@@ -7,6 +7,7 @@
 	<Property Name="varPersistentID:{0B970DBF-C8C6-44A4-A326-9713EAC4FEF1}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/DriveSpeedRight</Property>
 	<Property Name="varPersistentID:{0BA40089-1230-4D8D-B9D3-CC76D3B58978}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeLeftRollerSpeed</Property>
 	<Property Name="varPersistentID:{13E400E9-CC28-4E25-A59A-EE1B5C4948B1}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeCylState</Property>
+	<Property Name="varPersistentID:{146EF14C-06E4-4D7E-AC04-0CCF6913BA7E}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisDistanceRight</Property>
 	<Property Name="varPersistentID:{1A859F88-70C1-4D93-8FCF-93BE4D5C10F7}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLinkState</Property>
 	<Property Name="varPersistentID:{1C0B15D1-8AD7-46D0-8A79-B1EA666585D3}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLinkState_2</Property>
 	<Property Name="varPersistentID:{57CF3BE9-4924-4C03-B546-2BA2572F8DC0}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeRightRollerSpeed</Property>
@@ -15,6 +16,7 @@
 	<Property Name="varPersistentID:{6530F727-919A-4CA1-B2EB-19928F3008E6}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftMotorSpeedUp</Property>
 	<Property Name="varPersistentID:{70E81CF1-4E66-4477-8E5B-DF37CBF02634}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftCurrentHeight</Property>
 	<Property Name="varPersistentID:{7CD81C0A-AC0E-4569-B61B-845FE40369F8}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherMovementSpeed</Property>
+	<Property Name="varPersistentID:{7F20F567-A60A-4F5D-9875-BC8C7040E2D4}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisDistanceLeft</Property>
 	<Property Name="varPersistentID:{8A021618-D32B-4B10-B75E-4D83317D0992}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPositions</Property>
 	<Property Name="varPersistentID:{8B3828D3-F43C-49C1-A22B-3364EA6C726D}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftMotorSpeedDown</Property>
 	<Property Name="varPersistentID:{8E73B641-A888-4C89-8C4E-6E0C4D68BC3C}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftInputArray</Property>
@@ -24,10 +26,12 @@
 	<Property Name="varPersistentID:{A6FA17DD-4A05-4808-9045-D1C0E7BC223C}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPostionRequested</Property>
 	<Property Name="varPersistentID:{AD1A1C27-F383-478E-AB4E-3CDA307F1301}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftRequestedHeight</Property>
 	<Property Name="varPersistentID:{B422D028-43EE-46F6-A2D1-EF1AD39E074C}" Type="Ref">/Target/GateLib/GateLib.lvlib/GateCylState</Property>
+	<Property Name="varPersistentID:{B9B5CC2C-7043-4F52-984B-D38C4ACB3A3C}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisPIDGains</Property>
 	<Property Name="varPersistentID:{BCAA85B9-F520-4AAA-ABFB-F48AB1732E6B}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchContainerState</Property>
 	<Property Name="varPersistentID:{BE6B137B-2906-4E8B-BBCF-B3C7A51ADB47}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLatchState</Property>
 	<Property Name="varPersistentID:{C12CAF77-ABD1-488A-8B23-8BDD534264DB}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftLockSpeed</Property>
 	<Property Name="varPersistentID:{E7FFDABB-002D-48BA-B711-21693311C665}" Type="Ref">/Target/UILib/UILib.lvlib/LatchClearHeight</Property>
+	<Property Name="varPersistentID:{E9B72195-82A7-4427-A418-E52E6D64C6CB}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisDistanceThreshold</Property>
 	<Property Name="varPersistentID:{EDF14443-F96D-43BD-9823-E0ADF2BCE557}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftInnerSpeedDown</Property>
 	<Property Name="varPersistentID:{FA63E72E-7349-40F5-90F0-638E95EE88D4}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherThreshold</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -196,6 +200,7 @@ DirectoryIndex index.htm
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="PIDGains.ctl" Type="VI" URL="../PIDGains.ctl"/>
 		<Item Name="LiftInputArrayPath" Type="Document" URL="../../LiftInputArrayPath"/>
 		<Item Name="PusherPositionArrayPath" Type="Document" URL="../../PusherPositionArrayPath"/>
 		<Item Name="RobotPrefs.ini" Type="Document" URL="../../RobotPrefs.ini"/>
