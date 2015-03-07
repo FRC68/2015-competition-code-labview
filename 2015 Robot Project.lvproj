@@ -197,7 +197,7 @@ DirectoryIndex index.htm
 		<Item Name="PIDGains.ctl" Type="VI" URL="../PIDGains.ctl"/>
 		<Item Name="LiftInputArrayPath" Type="Document" URL="../../LiftInputArrayPath"/>
 		<Item Name="PusherPositionArrayPath" Type="Document" URL="../../PusherPositionArrayPath"/>
-		<Item Name="RobotPrefs.ini" Type="Document" URL="../../RobotPrefs.ini"/>
+		<Item Name="RobotPrefs.ini" Type="Document" URL="../RobotPrefs.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -830,7 +830,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
