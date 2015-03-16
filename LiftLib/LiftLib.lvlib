@@ -61,4 +61,13 @@
 		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#&lt;FQ!!!"1!A!!!!!!%!"V!#A!7=(*P='^S&gt;'FP&lt;G&amp;M)'&gt;B;7YA+%ND+1!!(5!+!"&gt;J&lt;H2F:X*B&lt;#"U;7VF)#B5;3QA&lt;7FO+1!@1!I!'72F=GFW982J&gt;G5A&gt;'FN:3!I6'1M)'VJ&lt;CE!&amp;E"1!!-!!!!"!!)*5%F%)'&gt;B;7ZT!!%!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="LiftZero.vi" Type="VI" URL="../LiftZero.vi"/>
+	<Item Name="LiftZeroOverride" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"1!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>

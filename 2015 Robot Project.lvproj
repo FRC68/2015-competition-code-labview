@@ -27,6 +27,7 @@
 	<Property Name="varPersistentID:{BE6B137B-2906-4E8B-BBCF-B3C7A51ADB47}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLatchState</Property>
 	<Property Name="varPersistentID:{E7FFDABB-002D-48BA-B711-21693311C665}" Type="Ref">/Target/UILib/UILib.lvlib/LatchClearHeight</Property>
 	<Property Name="varPersistentID:{E9B72195-82A7-4427-A418-E52E6D64C6CB}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisDistanceThreshold</Property>
+	<Property Name="varPersistentID:{F8BD7FFA-984C-4D9B-AC51-B5BF71F6926A}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftZeroOverride</Property>
 	<Property Name="varPersistentID:{FA63E72E-7349-40F5-90F0-638E95EE88D4}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherThreshold</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
