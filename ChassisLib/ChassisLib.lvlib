@@ -12,8 +12,6 @@
 	<Item Name="ChassisControlLoop.vi" Type="VI" URL="../ChassisControlLoop.vi"/>
 	<Item Name="ChassisDisable.vi" Type="VI" URL="../ChassisDisable.vi"/>
 	<Item Name="ChassisOpen.vi" Type="VI" URL="../ChassisOpen.vi"/>
-	<Item Name="ChassisRefSelector.vi" Type="VI" URL="../ChassisRefSelector.vi"/>
-	<Item Name="ChassisRefs.ctl" Type="VI" URL="../ChassisRefs.ctl"/>
 	<Item Name="DriveSpeedLeft" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -23,6 +21,8 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"1!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="ChassisRefSelector.vi" Type="VI" URL="../ChassisRefSelector.vi"/>
+	<Item Name="ChassisRefs.ctl" Type="VI" URL="../ChassisRefs.ctl"/>
 	<Item Name="DriveSpeedRight" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
