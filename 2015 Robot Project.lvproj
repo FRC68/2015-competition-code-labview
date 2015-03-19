@@ -15,9 +15,11 @@
 	<Property Name="varPersistentID:{70E81CF1-4E66-4477-8E5B-DF37CBF02634}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftCurrentHeight</Property>
 	<Property Name="varPersistentID:{7CD81C0A-AC0E-4569-B61B-845FE40369F8}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherMovementSpeed</Property>
 	<Property Name="varPersistentID:{7F20F567-A60A-4F5D-9875-BC8C7040E2D4}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisDistanceLeft</Property>
+	<Property Name="varPersistentID:{858DB838-E415-4848-8E46-9A9FC73E7CA6}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftTopLimitSwitchState</Property>
 	<Property Name="varPersistentID:{8A021618-D32B-4B10-B75E-4D83317D0992}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPositions</Property>
 	<Property Name="varPersistentID:{8E73B641-A888-4C89-8C4E-6E0C4D68BC3C}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftInputArray</Property>
 	<Property Name="varPersistentID:{943DD7D6-89C0-40A1-BBE6-5B25959E95DB}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPositionActual</Property>
+	<Property Name="varPersistentID:{96280C92-4F46-46A9-9DC3-01EFF4E9B6C0}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftBottomLimitSwitchState</Property>
 	<Property Name="varPersistentID:{978D1CFC-C122-4AD5-98BF-4B5788452BBF}" Type="Ref">/Target/UILib/UILib.lvlib/LiftLevel</Property>
 	<Property Name="varPersistentID:{A6FA17DD-4A05-4808-9045-D1C0E7BC223C}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherPostionRequested</Property>
 	<Property Name="varPersistentID:{AD1A1C27-F383-478E-AB4E-3CDA307F1301}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftRequestedHeight</Property>
@@ -844,7 +846,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">63</Property>
+				<Property Name="Bld_version.build" Type="Int">69</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
