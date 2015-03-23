@@ -58,4 +58,13 @@
 	<Item Name="IntakeDefaultRevese.vi" Type="VI" URL="../IntakeDefaultRevese.vi"/>
 	<Item Name="IntakeDefaultForward.vi" Type="VI" URL="../IntakeDefaultForward.vi"/>
 	<Item Name="IntakeStop.vi" Type="VI" URL="../IntakeStop.vi"/>
+	<Item Name="IntakeBeamBreak" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"1!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>
