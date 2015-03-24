@@ -4,6 +4,7 @@
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{0024DB1F-1DB1-47A3-980B-F1E7A382DEE3}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisBaseAutonSpeed</Property>
 	<Property Name="varPersistentID:{00739AA3-9AEB-4DD7-9EDB-C224403E169E}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/DriveSpeedLeft</Property>
+	<Property Name="varPersistentID:{03138BE2-C43A-4CFB-9412-5248775622F0}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftOpenIntakeMinSpeed</Property>
 	<Property Name="varPersistentID:{0B970DBF-C8C6-44A4-A326-9713EAC4FEF1}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/DriveSpeedRight</Property>
 	<Property Name="varPersistentID:{0BA40089-1230-4D8D-B9D3-CC76D3B58978}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeLeftRollerSpeed</Property>
 	<Property Name="varPersistentID:{13E400E9-CC28-4E25-A59A-EE1B5C4948B1}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeCylState</Property>
@@ -14,6 +15,7 @@
 	<Property Name="varPersistentID:{210DA313-EF60-4216-A6C6-65A844137689}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeBeamBreak</Property>
 	<Property Name="varPersistentID:{57CF3BE9-4924-4C03-B546-2BA2572F8DC0}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeRightRollerSpeed</Property>
 	<Property Name="varPersistentID:{62B80D50-E0D5-4FB4-B3FF-D8F1BCE9CF5E}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeDefaultSpeed</Property>
+	<Property Name="varPersistentID:{6A681C63-9A84-48AF-AA96-6FC65DB3DF01}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftDangerAmpDelta</Property>
 	<Property Name="varPersistentID:{70E81CF1-4E66-4477-8E5B-DF37CBF02634}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftCurrentHeight</Property>
 	<Property Name="varPersistentID:{7CD81C0A-AC0E-4569-B61B-845FE40369F8}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherMovementSpeed</Property>
 	<Property Name="varPersistentID:{7F20F567-A60A-4F5D-9875-BC8C7040E2D4}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisDistanceLeft</Property>
@@ -27,8 +29,10 @@
 	<Property Name="varPersistentID:{AD1A1C27-F383-478E-AB4E-3CDA307F1301}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftRequestedHeight</Property>
 	<Property Name="varPersistentID:{B422D028-43EE-46F6-A2D1-EF1AD39E074C}" Type="Ref">/Target/GateLib/GateLib.lvlib/GateCylState</Property>
 	<Property Name="varPersistentID:{B9B5CC2C-7043-4F52-984B-D38C4ACB3A3C}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisPIDGains</Property>
+	<Property Name="varPersistentID:{BBC46889-9C8E-4D67-B7F7-93FC123F511B}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftRateOfChange</Property>
 	<Property Name="varPersistentID:{BCAA85B9-F520-4AAA-ABFB-F48AB1732E6B}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchContainerState</Property>
 	<Property Name="varPersistentID:{BE6B137B-2906-4E8B-BBCF-B3C7A51ADB47}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLatchState</Property>
+	<Property Name="varPersistentID:{CC8242B4-E093-4103-A7C8-B0EFB5885B09}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftEStop</Property>
 	<Property Name="varPersistentID:{D690F374-BC95-4DE9-AF57-7C17A3B3C62A}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisAccel</Property>
 	<Property Name="varPersistentID:{E7FFDABB-002D-48BA-B711-21693311C665}" Type="Ref">/Target/UILib/UILib.lvlib/LatchClearHeight</Property>
 	<Property Name="varPersistentID:{E9B72195-82A7-4427-A418-E52E6D64C6CB}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisDistanceThreshold</Property>
@@ -899,7 +903,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">71</Property>
+				<Property Name="Bld_version.build" Type="Int">72</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
