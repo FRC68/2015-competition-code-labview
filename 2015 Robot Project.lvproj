@@ -15,7 +15,7 @@
 	<Property Name="varPersistentID:{210DA313-EF60-4216-A6C6-65A844137689}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeBeamBreak</Property>
 	<Property Name="varPersistentID:{57CF3BE9-4924-4C03-B546-2BA2572F8DC0}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeRightRollerSpeed</Property>
 	<Property Name="varPersistentID:{62B80D50-E0D5-4FB4-B3FF-D8F1BCE9CF5E}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeDefaultSpeed</Property>
-	<Property Name="varPersistentID:{6A681C63-9A84-48AF-AA96-6FC65DB3DF01}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftDangerAmpDelta</Property>
+	<Property Name="varPersistentID:{6A681C63-9A84-48AF-AA96-6FC65DB3DF01}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftDangerAmp</Property>
 	<Property Name="varPersistentID:{70E81CF1-4E66-4477-8E5B-DF37CBF02634}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftCurrentHeight</Property>
 	<Property Name="varPersistentID:{7CD81C0A-AC0E-4569-B61B-845FE40369F8}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherMovementSpeed</Property>
 	<Property Name="varPersistentID:{7F20F567-A60A-4F5D-9875-BC8C7040E2D4}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisDistanceLeft</Property>
@@ -36,6 +36,7 @@
 	<Property Name="varPersistentID:{D690F374-BC95-4DE9-AF57-7C17A3B3C62A}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisAccel</Property>
 	<Property Name="varPersistentID:{E7FFDABB-002D-48BA-B711-21693311C665}" Type="Ref">/Target/UILib/UILib.lvlib/LatchClearHeight</Property>
 	<Property Name="varPersistentID:{E9B72195-82A7-4427-A418-E52E6D64C6CB}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisDistanceThreshold</Property>
+	<Property Name="varPersistentID:{EA953CEA-E446-43F6-BC40-FE733102921F}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftSafeSpeed</Property>
 	<Property Name="varPersistentID:{F8BD7FFA-984C-4D9B-AC51-B5BF71F6926A}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftZeroOverride</Property>
 	<Property Name="varPersistentID:{FA63E72E-7349-40F5-90F0-638E95EE88D4}" Type="Ref">/Target/PusherLib/PusherLib.lvlib/PusherThreshold</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -903,7 +904,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">72</Property>
+				<Property Name="Bld_version.build" Type="Int">83</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
