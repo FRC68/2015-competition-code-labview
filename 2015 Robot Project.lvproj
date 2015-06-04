@@ -5,6 +5,7 @@
 	<Property Name="varPersistentID:{0024DB1F-1DB1-47A3-980B-F1E7A382DEE3}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/ChassisBaseAutonSpeed</Property>
 	<Property Name="varPersistentID:{00739AA3-9AEB-4DD7-9EDB-C224403E169E}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/DriveSpeedLeft</Property>
 	<Property Name="varPersistentID:{03138BE2-C43A-4CFB-9412-5248775622F0}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftOpenIntakeMinSpeed</Property>
+	<Property Name="varPersistentID:{07678C4B-13C2-48DC-9F67-6117300348C8}" Type="Ref">/Target/CanGetterLib/CanGetterLib.lvlib/CanGetterState</Property>
 	<Property Name="varPersistentID:{0B970DBF-C8C6-44A4-A326-9713EAC4FEF1}" Type="Ref">/Target/ChassisLib/ChassisLib.lvlib/DriveSpeedRight</Property>
 	<Property Name="varPersistentID:{0BA40089-1230-4D8D-B9D3-CC76D3B58978}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeLeftRollerSpeed</Property>
 	<Property Name="varPersistentID:{13E400E9-CC28-4E25-A59A-EE1B5C4948B1}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeCylState</Property>
@@ -14,6 +15,7 @@
 	<Property Name="varPersistentID:{1C0B15D1-8AD7-46D0-8A79-B1EA666585D3}" Type="Ref">/Target/LatchLib/LatchLib.lvlib/LatchLinkState_2</Property>
 	<Property Name="varPersistentID:{210DA313-EF60-4216-A6C6-65A844137689}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeBeamBreak</Property>
 	<Property Name="varPersistentID:{57CF3BE9-4924-4C03-B546-2BA2572F8DC0}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeRightRollerSpeed</Property>
+	<Property Name="varPersistentID:{617CEB2F-CED9-426C-A770-D4BA900DB130}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftUpOveride</Property>
 	<Property Name="varPersistentID:{62B80D50-E0D5-4FB4-B3FF-D8F1BCE9CF5E}" Type="Ref">/Target/IntakeLib/IntakeLib.lvlib/IntakeDefaultSpeed</Property>
 	<Property Name="varPersistentID:{6A681C63-9A84-48AF-AA96-6FC65DB3DF01}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftDangerAmp</Property>
 	<Property Name="varPersistentID:{70E81CF1-4E66-4477-8E5B-DF37CBF02634}" Type="Ref">/Target/LiftLib/LiftLib.lvlib/LiftCurrentHeight</Property>
@@ -66,6 +68,7 @@
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
 		<Item Name="UICreateConfig.vi" Type="VI" URL="../UICreateConfig.vi"/>
 		<Item Name="Main Auton Script XML Converter.vi" Type="VI" URL="../Main Auton Script XML Converter.vi"/>
+		<Item Name="XMLScriptEditor.vi" Type="VI" URL="../XMLScriptEditor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -188,7 +191,6 @@ DirectoryIndex index.htm
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
-			<Item Name="Auto.vi" Type="VI" URL="../Auto.vi"/>
 		</Item>
 		<Item Name="IntakeLib" Type="Folder" URL="../IntakeLib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -203,6 +205,12 @@ DirectoryIndex index.htm
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="GateLib" Type="Folder" URL="../GateLib">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="CanGetterLib" Type="Folder" URL="../CanGetterLib">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="LightsLib" Type="Folder" URL="../LightsLib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
@@ -869,6 +877,7 @@ DirectoryIndex index.htm
 				<Item Name="WPI_AnalogChannelGetVoltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelGetVoltage.vi"/>
 				<Item Name="WPI_AccelerometerAnalogGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerAnalogGet.vi"/>
 				<Item Name="WPI_AccelerometerGetAcceleration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerGetAcceleration.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -904,7 +913,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">104</Property>
+				<Property Name="Bld_version.build" Type="Int">154</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
